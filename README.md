@@ -56,3 +56,33 @@ npm run dev
 - Certifique-se de que o servidor está em execução.
 - Use ferramentas como o Postman ou faça solicitações HTTP para a API nos endpoints correspondentes.
 - Consulte a documentação da API para obter detalhes sobre como usar cada recurso.
+
+## Endpoints da API
+
+### Autenticação de Usuário
+
+- **POST /login**: Realiza o login do usuário com base nas credenciais fornecidas.
+- **POST /usuario**: Cria um novo usuário no sistema.
+
+### Gerenciamento de Usuários
+
+- **GET /usuario**: Obtém detalhes do usuário autenticado.
+- **PUT /usuario**: Atualiza os detalhes do usuário autenticado.
+
+### Transações Financeiras
+
+- **GET /transacao**: Lista todas as transações do usuário autenticado.
+- **GET /transacao/extrato**: Obtém o extrato financeiro do usuário autenticado.
+- **GET /transacao/:id**: Obtém detalhes de uma transação específica.
+- **POST /transacao**: Adiciona uma nova transação.
+- **PUT /transacao/:id**: Atualiza uma transação existente.
+- **DELETE /transacao/:id**: Exclui uma transação.
+
+### Categorias Financeiras
+
+- **GET /categoria**: Lista todas as categorias financeiras disponíveis.
+
+### Middlewares
+
+- **Middleware de Autenticação**: Verifica se o usuário está autenticado antes de acessar os endpoints protegidos.
+- **Middlewares de Validação**: Realiza a validação dos dados de entrada para garantir que estão corretos antes de processá-los.
