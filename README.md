@@ -46,12 +46,7 @@ npm install
 
 4. Atualize o arquivo DataBase.js com as informações de acesso do seu banco de dados.
 ```bash
-const userDatabase = null // seu user do db
-const hostDatabase = null // seu host do db
-const nameDatabase = null // seu nome do db
-const passwordDatabase = null // sua senha do db
-const portDatabase = null // sua port do db
-const tokenPassword = 123 // senha para gerar o token, pode deixar 123
+Siga o sensitiveDateExample.js para atualizar as informações com os dados do seu banco de dados.
 ```
 
 5. Inicialize o servidor de desenvolvimento:
