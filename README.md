@@ -32,13 +32,12 @@ Este é um projeto de API REST que oferece funcionalidades para gerenciar transa
 #### Instalação
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/seu-projeto.git
+git clone git@github.com:EdEddAEddy/Financial-ControllerAPI.git
 ```
 
 2. Navegue até a pasta do projeto:
 ```bash
-cd seu-projeto
-
+cd Financial-ControllerAPI
 ```
 3. Instale as dependências:
 ```bash
